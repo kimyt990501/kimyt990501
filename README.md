@@ -48,6 +48,13 @@
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
+## 경력
+
+### 인턴십 경험
+- **스타트업 인턴** (총 8개월)
+  - 2개 스타트업에서 소프트웨어 및 모델 개발 업무, 데이터 수집 업무 인턴 경험
+  - 실무 중심의 개발 프로젝트 참여 및 기술 스택 활용
+
 ## 학력 및 자격증
 
 ### 학력
@@ -56,6 +63,7 @@
 ### 자격증
 - **SQLD** (SQL 개발자)
 - **TOEIC** 855점
+- **신HSK** 6급
 
 ## 언어 능력
 
@@ -65,7 +73,7 @@
 
 ## 연락처
 
-📧 **Email**: [kimyt990501@naver.com](mailto:kimyt990501@naver.com)
+**Email**: [kimyt990501@naver.com](mailto:kimyt990501@naver.com)
 
 궁금한 점이나 협업 제안이 있으시면 언제든지 연락해 주세요.
 
