@@ -36,6 +36,8 @@
 ![HuggingFace](https://img.shields.io/badge/🤗%20Hugging%20Face-FFD21E?style=flat-square&logoColor=black)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logo=google&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 
 **DevOps & Tools**
 <br>
@@ -56,6 +58,39 @@
 <br>
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+
+## 주요 프로젝트
+
+### 다국가 수어인식 번역 서비스
+**기술 스택**: Python, Jupyter Notebook, OpenCV, MediaPipe, TensorFlow.Keras, Scikit-learn
+- **설명**: 미국수어(ASL), 한국수어(KSL), 중국수어(CSL)를 인식하여 텍스트로 번역하는 AI 서비스
+- **담당 역할**: 수어인식 파트 개발
+- **주요 기능**:
+  - 실시간 손동작 및 표정 인식
+  - 3개국 수어 언어별 분류 및 번역
+  - 각 국가별 수어 문법 구조 차이 처리
+- **기술적 특징**:
+  - MediaPipe를 활용한 손 랜드마크 추출
+  - 컴퓨터 비전 기반 제스처 분석
+  - 딥러닝 모델을 통한 수어 패턴 학습
+- **의의**: 다국가 수어 체계의 차이점을 이해하고 각각에 최적화된 인식 모델 구현
+
+### Deciphish - 피싱 탐지 시스템
+**기술 스택**: Python, FastAPI, Next.js, TypeScript, MySQL, Docker, MediaPipe
+- **설명**: AI 기반 피싱 사이트 탐지 및 분석 시스템
+- **주요 기능**:
+  - URL 기반 피싱 사이트 탐지
+  - QR 코드 생성 및 검사
+  - 브랜드 로고 인식을 통한 피싱 분석
+  - 웹 확장 프로그램 제공
+- **구성**:
+  - **Backend API**: FastAPI 기반 REST API 서버
+  - **Web Application**: Next.js 기반 웹 인터페이스
+  - **Browser Extension**: 실시간 피싱 사이트 차단 확장 프로그램
+- **특징**: 
+  - 다양한 AI 모델을 활용한 멀티모달 피싱 탐지
+  - 실시간 데이터 처리 및 캐싱 시스템
+  - Docker를 통한 컨테이너화된 배포
 
 ## 경력
 
