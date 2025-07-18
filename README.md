@@ -76,7 +76,7 @@
 - **의의**: 다국가 수어 체계의 차이점을 이해하고 각각에 최적화된 인식 모델 구현
 
 ### Deciphish - 피싱 탐지 시스템
-**기술 스택**: Python, FastAPI, Next.js, TypeScript, MySQL, Docker, MediaPipe
+**기술 스택**: Python, FastAPI, Next.js, TypeScript, MySQL, Docker, Javascript
 - **설명**: AI 기반 피싱 사이트 탐지 및 분석 시스템
 - **주요 기능**:
   - URL 기반 피싱 사이트 탐지
