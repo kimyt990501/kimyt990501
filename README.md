@@ -26,6 +26,7 @@
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 
@@ -74,6 +75,25 @@
   - 컴퓨터 비전 기반 제스처 분석
   - 딥러닝 모델을 통한 수어 패턴 학습
 - **의의**: 다국가 수어 체계의 차이점을 이해하고 각각에 최적화된 인식 모델 구현
+
+### ERP_project
+**기술 스택**: Python, FastAPI, Vue.js, TypeScript, MySQL, Docker
+- **설명**: FastAPI와 Vue.js 기반의 ERP 시스템으로, 기본적인 인사 관리 기능을 제공합니다.
+- **주요 기능**:
+  - 사용자 인증 (로그인)
+  - 직원 정보 관리
+  - 출퇴근 기록 및 관리
+  - 휴가 신청 및 승인
+  - 급여 정보 조회
+- **구성**:
+  - **Backend API**: FastAPI 기반 REST API 서버
+  - **Web Application**: Vue.js 기반 웹 인터페이스
+  - **Database**: MySQL
+- **특징**: 
+  - 백엔드와 프론트엔드가 명확히 분리된 아키텍처
+  - 역할 기반 접근 제어 (관리자/일반 직원)
+  - Docker를 활용한 데이터베이스 환경 구성
+  - 스케줄러를 통한 자동화 작업 처리
 
 ### Deciphish - 피싱 탐지 시스템
 **기술 스택**: Python, FastAPI, Next.js, TypeScript, MySQL, Docker, Javascript
