@@ -2,6 +2,8 @@
 
 **소프트웨어 개발자** | 숭실대학교 소프트웨어학부 재학 중 (2019~2026)
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-kimyt990501.github.io-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://kimyt990501.github.io)
+
 ## 소개
 
 웹 개발, 데이터 사이언스, AI 분야에 관심을 가지고 있는 개발자입니다. 
