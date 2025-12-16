@@ -62,55 +62,44 @@
 
 ## 주요 프로젝트
 
-### 다국가 수어인식 번역 서비스
-**기술 스택**: Python, Jupyter Notebook, OpenCV, MediaPipe, TensorFlow.Keras, Scikit-learn
-- **설명**: 미국수어(ASL), 한국수어(KSL), 중국수어(CSL)를 인식하여 텍스트로 번역하는 AI 서비스
-- **담당 역할**: 수어인식 파트 개발
+### Multi-Language Sign Language Translator - 실시간 수어 번역 시스템
+**기술 스택**: Python, OpenCV, MediaPipe, TensorFlow, Keras, Scikit-learn
+- **기간**: 2024.03 ~ 2024.08
+- **역할**: AI Developer
+- **설명**: 언어 장벽으로 인한 청각장애인 소통 어려움 해결을 위한 AI 기반 실시간 수어 번역 시스템
 - **주요 기능**:
-  - 실시간 손동작 인식
-  - 3개국 수어 언어별 분류 및 번역
-  - 각 국가별 수어 문법 구조 차이 처리
-- **기술적 특징**:
-  - MediaPipe를 활용한 손 랜드마크 추출
-  - 컴퓨터 비전 기반 제스처 분석
-  - 딥러닝 모델을 통한 수어 패턴 학습
-- **의의**: 다국가 수어 체계의 차이점을 이해하고 각각에 최적화된 인식 모델 구현
+  - 3개국 수어 지원 (ASL, KSL, CSL)
+  - 실시간 번역 속도
+  - 손동작 랜드마크 추출 및 제스처 분류
+- **담당 업무**:
+  - MediaPipe로 손동작 랜드마크 실시간 추출
+  - TensorFlow/Keras로 LSTM 기반 제스처 분류 모델 학습
+  - OpenCV로 비디오 스트림 처리 파이프라인 구축
 
-### ERP_project
+### Enterprise ERP System - 중소기업 통합 자원 관리 시스템
 **기술 스택**: Python, FastAPI, Vue.js, TypeScript, MySQL, Docker
-- **설명**: FastAPI와 Vue.js 기반의 ERP 시스템으로, 기본적인 인사 관리 기능을 제공합니다.
+- **기간**: 2025.09
+- **역할**: Backend Developer
+- **설명**: 수작업 인사 관리로 인한 비효율과 오류를 해결하기 위한 웹 기반 ERP 시스템 개발
 - **주요 기능**:
-  - 사용자 인증 (로그인)
-  - 직원 정보 관리
-  - 출퇴근 기록 및 관리
-  - 휴가 신청 및 승인
-  - 급여 정보 조회
-- **구성**:
-  - **Backend API**: FastAPI 기반 REST API 서버
-  - **Web Application**: Vue.js 기반 웹 인터페이스
-  - **Database**: MySQL
-- **특징**: 
-  - 백엔드와 프론트엔드가 명확히 분리된 아키텍처
-  - 역할 기반 접근 제어 (관리자/일반 직원)
-  - Docker를 활용한 데이터베이스 환경 구성
-  - 스케줄러를 통한 자동화 작업 처리
+  - 5개 핵심 모듈 (출퇴근, 휴가, 급여, 인사, 보고서)
+  - 처리시간 80% 단축
+  - 월 500+ 건 자동 처리
+- **담당 업무**:
+  - RESTful API 아키텍처로 확장 가능한 백엔드 설계
+  - Vue.js로 직관적인 관리자 대시보드 구현
+  - MySQL 데이터베이스 스키마 설계 및 최적화
 
-### Deciphish - 피싱 탐지 시스템
-**기술 스택**: Python, FastAPI, Next.js, TypeScript, MySQL, Docker, Javascript
-- **설명**: AI 기반 피싱 사이트 탐지 및 분석 시스템
-- **주요 기능**:
-  - URL 기반 피싱 사이트 탐지
-  - QR 코드 생성 및 검사
-  - 브랜드 로고 인식을 통한 피싱 분석
-  - 웹 확장 프로그램 제공
-- **구성**:
-  - **Backend API**: FastAPI 기반 REST API 서버
-  - **Web Application**: Next.js 기반 웹 인터페이스
-  - **Browser Extension**: 실시간 피싱 사이트 차단 확장 프로그램
-- **특징**: 
-  - 다양한 AI 모델을 활용한 멀티모달 피싱 탐지
-  - 실시간 데이터 처리 및 캐싱 시스템
-  - Docker를 통한 컨테이너화된 배포
+### KBO 구장 강우 취소 예측 모델
+**기술 스택**: Python, XGBoost, Open-Meteo API, Pandas, scikit-learn, 웹 스크래핑
+- **기간**: 2025.11 ~ 2025.12
+- **역할**: Data Analyst & ML Engineer
+- **설명**: KBO 야구 팬들을 위한 강우로 인한 경기 취소 예측 모델 개발
+- **주요 성과**:
+  - 2019-2024년 KBO 경기 471개 데이터 웹 스크래핑 수집 (43건 취소)
+  - Open-Meteo API를 활용한 기상 데이터 수집 및 통합
+  - XGBoost 모델: 96.8% 정확도, 0.82 F1 score 달성
+  - 경기 3시간 전 강수량이 주요 예측 변수로 식별
 
 ## 경력
 
